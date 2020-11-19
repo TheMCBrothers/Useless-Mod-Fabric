@@ -1,0 +1,10 @@
+{
+  "block.uselessmod.useless_ore": "Useless Ore",
+  "block.uselessmod.super_useless_ore": "Super-Useless Ore",
+  "block.uselessmod.useless_block": "Block of Useless",
+  "block.uselessmod.super_useless_block": "Block of Super-Useless",
+  "item.uselessmod.useless_ingot": "Useless Ingot",
+  "item.uselessmod.super_useless_ingot": "Super-Useless Ingot",
+
+  "itemGroup.uselessmod.uselessmod": "Useless Mod"
+}

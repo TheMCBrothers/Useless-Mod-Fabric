@@ -1,37 +1,30 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "uselessmod",
   "version": "${version}",
-
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Useless Mod",
+  "description": "A useless mod made for fabric",
   "authors": [
-    "Me!"
+    "TheMCBrothers"
   ],
+  "contributors": [],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/useless-mod-fabric",
+    "sources": "https://github.com/TheMCBrothers/Useless-Mod-Fabric"
   },
-
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
-
+  "license": "MIT",
+  "icon": "assets/uselessmod/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
-    ]
+      "themcbros.uselessmod.UselessMod"
+    ],
+    "client": [],
+    "server": []
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
-
+  "mixins": [],
   "depends": {
-    "fabricloader": ">=0.7.4",
-    "fabric": "*",
-    "minecraft": "1.16.x"
-  },
-  "suggests": {
-    "another-mod": "*"
+    "fabricloader": ">=0.10.7",
+    "fabric": "*"
   }
 }
