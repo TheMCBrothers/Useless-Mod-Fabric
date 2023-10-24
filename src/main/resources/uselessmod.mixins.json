@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "net.themcbrothers.uselessmod.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
